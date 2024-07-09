@@ -1,0 +1,284 @@
+@font-face {
+    font-family: ubuntu;
+    src: url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');;
+}
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family:ubuntu;
+}
+.head{
+    width:100%;
+    height:100vh;
+    background-image: url("bgn1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav{
+    width:100%;
+    background-color: transparent;
+    padding: 35px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.logo a{
+    font-size: 62px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.navlinks a{
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.navlinks a:hover{
+    color: rgb(5, 102, 181);
+    transform: scale(1.2);
+}
+
+.content{
+    color:#fff;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+}
+
+.header-content{
+    padding-top: 50px;
+}
+.header-content h2{
+    font-size: 50px;
+    font-weight: bold;
+    color:antiquewhite;
+    padding: 35px;
+}
+.header-content span{
+    color:rgb(4, 0, 0);
+    padding: 10px;
+}
+
+.header-content p{
+    font-size: 45px;
+    font-weight: 500;
+    color: antiquewhite;
+    padding: 35px;
+}
+
+.header-content button{
+    font-size: 25px;
+    border-radius: 20px;
+    border: 3px solid transparent;
+    font-weight: 400;
+    margin: 0 20%;
+    padding: 10px;
+    background-color: palevioletred;
+    color: blanchedalmond;
+}
+
+.header-content button:hover{
+    cursor: pointer;
+}
+
+.about{
+    width: 100%;
+    height: 100vh;
+    background-color: azure;
+    
+}
+
+.container{
+    padding: 5%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container h2{
+    font-size: 50px;
+    font-weight: bold;
+    color:black;
+    padding: 35px;
+}
+.container p{
+    font-size: 25px;
+    padding: 20px;
+    line-height:2;
+
+}
+.container img{
+    display: flex;
+    justify-content: center;
+    border:2px solid transparent;
+    border-radius: 30%;
+}
+
+.test{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-self: center;
+    padding: 35px;
+    flex-direction: column;
+}
+
+
+
+.topic h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding:35px;
+}
+.topic p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.card-grid{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.card{
+    border: 3px solid transparent;
+    margin: 30px;
+}
+
+.card img{
+    width:220px;
+    height: 220px;
+    padding-top: 10px;
+    border-radius: 50%;
+    padding-bottom: 10px;
+}
+
+.card h3{
+    font-size: 25px;
+    font-weight: 400;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+.card p{
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 10px;
+    line-height: 1.5;
+}
+
+.card i{
+    color:blue;
+    font-size: 28px;
+    padding: 10px;
+}
+
+.products{
+    width: 100%;
+    height: 100vh;
+    background-color: #cdefcd;
+    padding:5%;
+}
+.products h2{
+    font-size: 50px;
+    text-align: left;
+    align-items: center;
+    display: flex;
+}
+
+.prod{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.pdt img{
+    width: 450px;
+    height: 450px;
+    padding: 30px;
+    border: 4px solid transparent;
+    border-radius: 20%;
+}
+.pdt h3{
+    font-size: 25px;
+    font-weight: 800;
+    margin: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border: 4px solid transparent;
+}
+.pdt h3:hover{
+    color:red;
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+
+.footer {
+    width: 100%;
+    padding: 30px 0; 
+    background-color: rgb(146, 146, 252);
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.foocon {
+    text-align: left;
+    font-size: 18px; 
+}
+
+.foocon h3 {
+    margin-bottom: 10px; 
+    font-size: 24px; 
+}
+
+.foocon p {
+    margin-bottom: 5px; 
+}
+
+.social-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 15px; 
+}
+
+.social-links a {
+    color: #fff;
+    font-size: 28px; 
+}
+
+.social-links a:hover {
+    color: #ddd;
+}
+
+.bootom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid white;
+    margin-top: 20px;
+}
+
+.bootom p {
+    margin: 0;
+    font-size: 14px;
+}
