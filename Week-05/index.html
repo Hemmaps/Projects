@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Appointment Booking System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Doctor Appointment Booking System</h1>
+        </div>
+        <div class="content">
+            <div class="left-section">
+                <div class="booking-section">
+                    <h2>Booking Section</h2>
+                    <form id="booking-details" onsubmit="return bookAppointment()">
+                        <input type="text" name="name" id="name" placeholder="Name" required>
+                        <select name="doctor" id="doctor-select" required>
+                            <option value="">Select Doctor</option>
+                            <option value="dr-smith">Dr. Smith</option>
+                            <option value="dr-johnson">Dr. Johnson</option>
+                            <option value="dr-lea">Dr. Lea</option>
+    
+                        </select>
+                        <input type="date" name="date" id="date" required>
+                        <div id="time-slots"></div>
+                        <input type="tel" name="phone" id="telephone" placeholder="Phone No." required>
+                        <button type="submit">Book Appointment</button>
+                    </form>
+                </div>
+                <div id="cancel-appointments">
+                    <h2>Cancel Appointment</h2>
+                    <input type="text" id="idNumber" placeholder="ID">
+                    <button id="cancel">Cancel</button>
+                </div>
+                <div class="viewing-section">
+                    <h2>View Appointments</h2>
+                    <div id="view" class="appointments-display"></div>
+                </div>
+            </div>
+            <div class="right-section">
+                <h2>Doctors Information</h2>
+                <div id="doctor-cards"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
